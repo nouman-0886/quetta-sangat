@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/quetta-sangat/',
+    base: process.env.VERCEL ? '/' : '/quetta-sangat/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
