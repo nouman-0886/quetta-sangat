@@ -1,0 +1,6 @@
+{
+  "name": "Quetta Sangat Hotel & Restaurant",
+  "description": "Authentic Pakistani & Balochi dining featuring slow-cooked Namkeen Rosh, sizzling wok Karahi, live charcoal barbecue, crispy desi ghee parathas, and Karak Doodh Patti chai in Dunyapur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

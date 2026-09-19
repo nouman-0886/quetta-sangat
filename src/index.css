@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #080807;
+    --bg-surface: #11110F;
+    --bg-card: #181714;
+    --bg-elevated: #24211C;
+    --gold-primary: #C7A35A;
+    --gold-light: #D6B66B;
+    --gold-dim: #8F7238;
+    --text-ivory: #F4EFE5;
+    --text-muted: #B7B0A4;
+  }
+
+  body {
+    background-color: #080807;
+    color: #F4EFE5;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom Gold Accent & Dark Texture Utilities */
+.text-gold {
+  color: #D6B66B;
+}
+
+.text-gold-accent {
+  color: #C7A35A;
+}
+
+.bg-gold-primary {
+  background-color: #C7A35A;
+}
+
+.border-gold-subtle {
+  border-color: rgba(199, 163, 90, 0.2);
+}
+
+.border-gold-accent {
+  border-color: rgba(214, 182, 107, 0.4);
+}
+
+.bg-dark-base {
+  background-color: #080807;
+}
+
+.bg-dark-surface {
+  background-color: #11110F;
+}
+
+.bg-dark-card {
+  background-color: #181714;
+}
+
+.bg-dark-elevated {
+  background-color: #24211C;
+}
+
+/* Atmospheric Gradients */
+.radial-smoke {
+  background: radial-gradient(circle at 50% 30%, rgba(199, 163, 90, 0.08) 0%, rgba(17, 17, 15, 0.6) 50%, rgba(8, 8, 7, 0.95) 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(199, 163, 90, 0.15);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 10px 40px -10px rgba(199, 163, 90, 0.25);
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080807;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #24211C;
+  border-radius: 4px;
+  border: 1px solid rgba(199, 163, 90, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C7A35A;
+}
